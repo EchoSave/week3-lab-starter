@@ -20,12 +20,12 @@ type Resourcestatuses = "Full-time" | "Part-time";
 export interface Student {
     id: StudentId;
     name: string;
-    year: string;
+    year: number;
     status: Resourcestatuses;
-    array: number;
+    interests: string[];
     userName: string;
     funFact: string;
     programId? : number;
-    currentCoursesIds?: string;
+     currentCourseIds?: string [];
 
 }
