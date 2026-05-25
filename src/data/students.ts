@@ -15,7 +15,7 @@ export const students: Student[] = [
   {
     id: "S00002",
     name: "Jordan Wells",
-    year: 3,
+    year: 2,
     status: "Part-time",
     interests: ["Game Development", "AI", "Music Production"],
     userName: "jordan-wells",
