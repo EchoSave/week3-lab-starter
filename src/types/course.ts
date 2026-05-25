@@ -11,7 +11,7 @@ interface courses {
   Cred: number;
   termNum: number;
   Type: DeliveryMethod;
-  PreReq: Array<number>;
+  PreReq: String[];
   Note: String;
 }
 // The interface should include the following properties:
