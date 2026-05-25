@@ -3,17 +3,7 @@ import { DeliveryMethod } from "./common";
 // TODO: Create a type for course ids, which should be strings
 type CourseId = String;
 // TODO: Create an interface for courses
-interface courses {
-  Id: string;
-  Code: String;
-  Title: String;
-  Desc: String;
-  Cred: number;
-  termNum: number;
-  Type: DeliveryMethod;
-  PreReq: String[];
-  Note: String;
-}
+
 // The interface should include the following properties:
 // an id (hint: use the CourseId type created above)
 // a code (ex "CPRG 303")
@@ -28,4 +18,14 @@ interface courses {
 // once all group members have completed their sections, add the following field:
 // an optional array of program ids that this course is part of
 
-export interface Course {}
+export interface Course {
+    Id: string;
+    Code: String;
+    Title: String;
+    Desc: String;
+    Cred: number;
+    termNum: number;
+    Type: DeliveryMethod;
+    PreReq: String[];
+    Note: String;
+}

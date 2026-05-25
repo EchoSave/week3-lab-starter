@@ -1,6 +1,8 @@
 import { StyleSheet } from "react-native";
+import {Course} from "@/src/types/course"
 
 // TODO: Make a Props type for the props of our CourseCard component
+type Props = {courses: Course};
 
 export default function CourseCard(/*TODO: Add props here (use desctructuring)*/) {
   // TODO: Use descructuring to extract values from the course
