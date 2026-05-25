@@ -23,8 +23,8 @@ export interface Course {
     Code: String;
     Title: String;
     Desc: String;
-    Cred: number;
-    termNum: number;
+    Cred: String;
+    termNum: String;
     Type: DeliveryMethod;
     PreReq: String[];
     Note: String;
