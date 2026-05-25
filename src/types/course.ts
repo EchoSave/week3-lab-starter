@@ -1,18 +1,18 @@
 import { DeliveryMethod } from "./common";
 
 // TODO: Create a type for course ids, which should be strings
-let courseId: string;
+type CourseId = String;
 // TODO: Create an interface for courses
 interface courses {
-  courseId: string;
-  courseCode: String;
-  courseTitle: String;
-  courseDesc: String;
-  courseCred: number;
+  Id: string;
+  Code: String;
+  Title: String;
+  Desc: String;
+  Cred: number;
   termNum: number;
-  courseType: DeliveryMethod;
-  coursePreReq: Array<number>;
-  courseNote: String;
+  Type: DeliveryMethod;
+  PreReq: Array<number>;
+  Note: String;
 }
 // The interface should include the following properties:
 // an id (hint: use the CourseId type created above)
